@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="137396" started-at="2019-03-19T06:04:11Z" finished-at="2019-03-19T06:06:28Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="137396" started-at="2019-03-19T06:04:11Z" finished-at="2019-03-19T06:06:28Z">
+      <class name="com.Stepdef.CucumberRunner_Test">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="setUpClass" is-config="true" duration-ms="404" started-at="2019-03-19T06:04:11Z" finished-at="2019-03-19T06:04:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="startTest" is-config="true" duration-ms="2345" started-at="2019-03-19T06:04:11Z" finished-at="2019-03-19T06:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="feature" duration-ms="134367" started-at="2019-03-19T06:04:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-03-19T06:06:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Access tatoc webpage.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="after" is-config="true" duration-ms="73" started-at="2019-03-19T06:06:28Z" finished-at="2019-03-19T06:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.Stepdef.CucumberRunner_Test@42dafa95]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2019-03-19T06:06:28Z" finished-at="2019-03-19T06:06:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.Stepdef.CucumberRunner_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

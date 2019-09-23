@@ -1,0 +1,1188 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 789810652,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "wesite should have Tatoc heading",
+        "description": "",
+        "id": "access-tatoc-webpage.;wesite-should-have-tatoc-heading",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 314194177,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on tatoc homepage",
+            "match": {
+              "location": "HomePageStepDef.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29457074,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "It should have Tatoc heading on it",
+            "match": {
+              "location": "HomePageStepDef.verifyHeading()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 237200394,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "when we click on basic course it redirect page to grid gate",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-basic-course-it-redirect-page-to-grid-gate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10863768,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on tatoc homepage",
+            "match": {
+              "location": "HomePageStepDef.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202534724,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "we click on basic course",
+            "match": {
+              "location": "HomePageStepDef.verifyclick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123379935,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "it redirect us grid gate page",
+            "match": {
+              "location": "HomePageStepDef.verifygridPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 206959458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "when we click on advance course it redirect page to hover menu",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-advance-course-it-redirect-page-to-hover-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9453591,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is on tatoc homepage",
+            "match": {
+              "location": "HomePageStepDef.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 209878357,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "we click on advance course",
+            "match": {
+              "location": "HomePageStepDef.verifyclickadvance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121446309,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "it redirect us hover menu page",
+            "match": {
+              "location": "HomePageStepDef.verifyHoverMenuPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 217792069,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "website should have a footer",
+        "description": "",
+        "id": "access-tatoc-webpage.;website-should-have-a-footer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15808486,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user is on tatoc homepage",
+            "match": {
+              "location": "HomePageStepDef.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29177086,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it should have a footer",
+            "match": {
+              "location": "HomePageStepDef.verifyFooter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 246677570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Grid page should have a heading Grid Gate",
+        "description": "",
+        "id": "access-tatoc-webpage.;grid-page-should-have-a-heading-grid-gate",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202411340,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "we are on grid page",
+            "match": {
+              "location": "HomePageStepDef.verifyGridPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50532810,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Grid Gate heading should be there",
+            "match": {
+              "location": "HomePageStepDef.gridHeading()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 203141702,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "when we click on green box frame dungeon page will open",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-green-box-frame-dungeon-page-will-open",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134182741,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "we are on grid page",
+            "match": {
+              "location": "HomePageStepDef.verifyGridPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 489630040,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "we click on green box",
+            "match": {
+              "location": "HomePageStepDef.Greenclick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 118757878,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "frame dungeon page will open",
+            "match": {
+              "location": "HomePageStepDef.FrameDungeon()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 211460353,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "when we click on red box frame error page will open",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-red-box-frame-error-page-will-open",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 107728308,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "we are on grid page",
+            "match": {
+              "location": "HomePageStepDef.verifyGridPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186046931,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "we click on red box",
+            "match": {
+              "location": "HomePageStepDef.Redclick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85780824,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "error page will open",
+            "match": {
+              "location": "HomePageStepDef.ErrorPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 172846585,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Instructions should be there on grid gate page",
+        "description": "",
+        "id": "access-tatoc-webpage.;instructions-should-be-there-on-grid-gate-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88407885,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "we are on grid page",
+            "match": {
+              "location": "HomePageStepDef.verifyGridPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63934938,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Instructions should be there",
+            "match": {
+              "location": "HomePageStepDef.verifyInstructions()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 175076475,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "when we are frame dungeon page box should be enabled",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-are-frame-dungeon-page-box-should-be-enabled",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 198448257,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "we are on frame dungeon page",
+            "match": {
+              "location": "HomePageStepDef.verifyFrameDungeonPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40269831123,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "boxes should be enabled",
+            "match": {
+              "location": "HomePageStepDef.BoxCheck()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 201964369,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "when colors of both boxes are not same and we click on proceed than it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-colors-of-both-boxes-are-not-same-and-we-click-on-proceed-than-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 193694033,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "we are on frame dungeon page",
+            "match": {
+              "location": "HomePageStepDef.verifyFrameDungeonPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40456106829,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "we click on proceed link without changing color",
+            "match": {
+              "location": "HomePageStepDef.ErrorCheckClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173751082,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "it will redirect to error page",
+            "match": {
+              "location": "HomePageStepDef.ErrorCheck()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 216152174,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "when colors of both boxes are same and we click on proceed than it will redirect to drag page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-colors-of-both-boxes-are-same-and-we-click-on-proceed-than-it-will-redirect-to-drag-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 212846770,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "we are on frame dungeon page",
+            "match": {
+              "location": "HomePageStepDef.verifyFrameDungeonPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40505216694,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "we click on proceed link after changing color",
+            "match": {
+              "location": "HomePageStepDef.FrameColor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105416,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "it will redirect to drag page",
+            "match": {
+              "location": "HomePageStepDef.Checkdrag()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196941131,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Drag me button should enabled on drag page",
+        "description": "",
+        "id": "access-tatoc-webpage.;drag-me-button-should-enabled-on-drag-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 83822391,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "we are on drag around page",
+            "match": {
+              "location": "HomePageStepDef.verifyDragPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40957680,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "drag me button should be enabled",
+            "match": {
+              "location": "HomePageStepDef.DragButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196319795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "when we click on proceed button without draging then it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-proceed-button-without-draging-then-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 158255295,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "we are on drag around page",
+            "match": {
+              "location": "HomePageStepDef.verifyDragPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281717018,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "we click on proceed button without draging",
+            "match": {
+              "location": "HomePageStepDef.DragErrorTestClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132391970,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "it will redirect page to error page",
+            "match": {
+              "location": "HomePageStepDef.DragErrorTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 201102768,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "when we click on proceed button after draging then it will redirect to popup window page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-proceed-button-after-draging-then-it-will-redirect-to-popup-window-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 118492986,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "we are on drag around page",
+            "match": {
+              "location": "HomePageStepDef.verifyDragPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429064808,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "we click on proceed button after draging",
+            "match": {
+              "location": "HomePageStepDef.DragTestClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16512826,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "it will redirect to popup window page",
+            "match": {
+              "location": "HomePageStepDef.DragTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 164677382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "when we are on popup window page then launch window link should be valid",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-are-on-popup-window-page-then-launch-window-link-should-be-valid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82231277,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "we are on popup window page",
+            "match": {
+              "location": "HomePageStepDef.verifyPopUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75871296,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "launch window link should be valid",
+            "match": {
+              "location": "HomePageStepDef.WindowLinks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 186885905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "when we click on launch window link input box and submit button should be enabled",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-launch-window-link-input-box-and-submit-button-should-be-enabled",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80064067,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "we are on popup window page",
+            "match": {
+              "location": "HomePageStepDef.verifyPopUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203684882,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "we click on launch window link",
+            "match": {
+              "location": "HomePageStepDef.WindowButtonClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162059064,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "input box and submit button should be enabled",
+            "match": {
+              "location": "HomePageStepDef.WindowButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 165314045,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "when we click on proceed button without launching other window then it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-proceed-button-without-launching-other-window-then-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 75804408,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "we are on popup window page",
+            "match": {
+              "location": "HomePageStepDef.verifyPopUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219596903,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "we click on proceed button",
+            "match": {
+              "location": "HomePageStepDef.WindowErrorClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77069073,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "it will redirect window page to error page",
+            "match": {
+              "location": "HomePageStepDef.WindowErrorTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168364823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 83,
+        "name": "when we submit form empty and then we click on proceed button then it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-submit-form-empty-and-then-we-click-on-proceed-button-then-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78040424,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "we are on popup window page",
+            "match": {
+              "location": "HomePageStepDef.verifyPopUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 483938518,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "we submit form empty and click on proceed button",
+            "match": {
+              "location": "HomePageStepDef.WindowNameTestClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104763623,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "it will redirect again to error page",
+            "match": {
+              "location": "HomePageStepDef.WindowNameTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 171751497,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "when we submit form after entering name and then we click on proceed button then it will redirect to cookie handling page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-submit-form-after-entering-name-and-then-we-click-on-proceed-button-then-it-will-redirect-to-cookie-handling-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82408600,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "we are on popup window page",
+            "match": {
+              "location": "HomePageStepDef.verifyPopUpPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 431785426,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "we submit form after entering name and click on proceed button",
+            "match": {
+              "location": "HomePageStepDef.WindowTestClick()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20666979,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "it will redirect again to cookie handling page",
+            "match": {
+              "location": "HomePageStepDef.WindowTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 162937164,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "when we click on proceed button without generating token then it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-click-on-proceed-button-without-generating-token-then-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84321809,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "we are on cookie page",
+            "match": {
+              "location": "HomePageStepDef.CookieErrorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195043870,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "we click on proceed button on cookie page",
+            "match": {
+              "location": "HomePageStepDef.ClickProceed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96483613,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "it will give error page",
+            "match": {
+              "location": "HomePageStepDef.CookieErrorTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 168298375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "when we generate token but without setting the cookie we click proceed button then it will redirect to error page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-generate-token-but-without-setting-the-cookie-we-click-proceed-button-then-it-will-redirect-to-error-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97805227,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "we are on cookie page",
+            "match": {
+              "location": "HomePageStepDef.CookieErrorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293931506,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "we generate token and click on proceed button",
+            "match": {
+              "location": "HomePageStepDef.cookieGenerateTokenAndProceed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106486112,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "it should redirect to error page",
+            "match": {
+              "location": "HomePageStepDef.errorTest()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 160421308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HomePageStepDef.verifyTest()"
+            }
+          }
+        ],
+        "line": 103,
+        "name": "when we set cookie properly and then click on proceed then it will redirct to end page",
+        "description": "",
+        "id": "access-tatoc-webpage.;when-we-set-cookie-properly-and-then-click-on-proceed-then-it-will-redirct-to-end-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 92718575,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "we are on cookie page",
+            "match": {
+              "location": "HomePageStepDef.CookieErrorPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336154467,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "we set cookie and then click on proceed",
+            "match": {
+              "location": "HomePageStepDef.cookieSetProperly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6725080,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "it will redirect to end page",
+            "match": {
+              "location": "HomePageStepDef.TestEndPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Access tatoc webpage.",
+    "description": "",
+    "id": "access-tatoc-webpage.",
+    "keyword": "Feature",
+    "uri": "TestScenarios.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Tatoc"
+      }
+    ]
+  }
+]
